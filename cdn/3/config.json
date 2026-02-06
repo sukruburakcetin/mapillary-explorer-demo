@@ -1,0 +1,336 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Sayfa"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_1": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_32",
+          "bbox": {
+            "left": "1.8%",
+            "top": "23.6%",
+            "width": "3.6%",
+            "height": "7.4%",
+            "right": "1815px",
+            "bottom": "745px"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_2": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_37",
+          "bbox": {},
+          "setting": {}
+        }
+      },
+      "type": "FIXED",
+      "label": "Controller layout",
+      "order": [
+        "0"
+      ]
+    }
+  },
+  "exbVersion": "1.18.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false,
+    "viewPortSize": {
+      "LARGE": {
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.18.0",
+      "label": "Harita",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": false,
+        "initialMapDataSourceID": "dataSource_2",
+        "initialMapState": null,
+        "scaleRange": null
+      },
+      "id": "widget_1",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_1"
+        }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2",
+          "mainDataSourceId": "dataSource_2"
+        }
+      ]
+    },
+    "widget_32": {
+      "uri": "widgets/common/controller/",
+      "version": "1.18.0",
+      "label": "Widget Controller (Araç Denetleyicisi)",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [
+            "widget_33"
+          ],
+          "displayType": "STACK",
+          "vertical": true,
+          "size": {
+            "widget_33": {
+              "width": 462.765625,
+              "height": 443.375
+            },
+            "widget_34": {
+              "width": 606,
+              "height": 514.5625
+            },
+            "widget_35": {
+              "width": 644.4464289063499,
+              "height": 594.125
+            },
+            "widget_37": {
+              "width": 581.4464289063499,
+              "height": 529.125
+            }
+          },
+          "overflownStyle": "ARROWS",
+          "arrangement": "floating",
+          "alignment": "center"
+        },
+        "appearance": {
+          "space": 10,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 0,
+            "avatar": {
+              "type": "primary",
+              "size": "lg",
+              "shape": "rectangle"
+            },
+            "showTooltip": true,
+            "variant": {
+              "default": {
+                "iconColor": "var(--light)",
+                "bg": "var(--success-500)"
+              },
+              "active": {},
+              "hover": {}
+            }
+          }
+        }
+      },
+      "id": "widget_32",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_2"
+        }
+      }
+    },
+    "widget_37": {
+      "uri": "widgets/mapillary-explorer/",
+      "version": "1.0.0",
+      "label": "Mapillary Explorer",
+      "config": {
+        "exampleConfigProperty": "test",
+        "borderColor": "#2741e5",
+        "turboCreator": "",
+        "syncMapWithImage": false,
+        "syncMapPosition": "center",
+        "turboModeOnly": false,
+        "hideShareButton": false,
+        "hideTimeTravel": false,
+        "hideImageDownload": false,
+        "hideTurboFilter": false,
+        "hideLegend": false,
+        "hideInfoBox": false,
+        "enableTrafficSigns": true,
+        "enableMapillaryObjects": true,
+        "coverageLayerAlwaysOn": false
+      },
+      "id": "widget_37",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://www.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "express": false,
+    "title": "Mapillary Explorer Widget Demo",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
+  },
+  "timestamp": 1770377180770,
+  "sharedThemeVariables": null,
+  "dataSources": {
+    "dataSource_2": {
+      "id": "dataSource_2",
+      "type": "WEB_MAP",
+      "sourceLabel": "Nut-Friendly Restaurants in New York City",
+      "itemId": "3459f4d79095477d9d4bad9a1ffeb3b3",
+      "portalUrl": "https://www.arcgis.com"
+    },
+    "dataSource_3": {
+      "id": "dataSource_3",
+      "type": "WEB_MAP",
+      "sourceLabel": "World Imagery (Wayback 2014-02-20)",
+      "itemId": "d1a4dc2bb63f4ea39e27135dc0e007df",
+      "portalUrl": "https://www.arcgis.com"
+    }
+  },
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "controllerPanels": {},
+  "publishTimestamp": 1770377181356
+}
