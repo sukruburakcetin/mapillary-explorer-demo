@@ -1,7 +1,9 @@
-# Mapillary Explorer – Demo
+# Mapillary Explorer (Demo)
 
 **Live Demo:**  
 👉 https://sukruburakcetin.github.io/mapillary-explorer-demo/
+
+> ⚠️ Note: Enable Turbo Mode for a faster and smoother browsing experience.
 
 <img width="610" height="360" alt="image" src="https://github.com/user-attachments/assets/79bc34ca-d298-428f-8940-05b054f29f2c" />
 
