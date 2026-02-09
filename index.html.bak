@@ -116,7 +116,7 @@
 		"arcgis-coding-components": "./arcgis-coding-components/index.js",
 		"arcgis-portal-components": "./arcgis-portal-components/index.js",
 
-		"esri/": "https://js.arcgis.com/4.33/esri/"
+		"esri/": "https://API_URL/esri/"
 	}
 }</script>
 
