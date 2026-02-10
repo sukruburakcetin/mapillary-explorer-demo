@@ -47,14 +47,14 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_32",
+          "widgetId": "widget_2",
           "bbox": {
             "left": "0.0%",
-            "top": "23.0%",
+            "top": "18.9%",
             "width": "3.6%",
             "height": "7.4%",
             "right": "1850px",
-            "bottom": "751px"
+            "bottom": "796px"
           },
           "setting": {
             "autoProps": {
@@ -80,7 +80,7 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_38",
+          "widgetId": "widget_3",
           "bbox": {},
           "setting": {}
         }
@@ -115,27 +115,49 @@
           "canZoom": true,
           "canHome": true,
           "canSearch": true,
-          "canNavigation": true,
-          "canLocate": true,
-          "canCompass": true,
-          "canLayers": false,
-          "canMeasure": false,
-          "canBaseMap": false,
-          "canScaleBar": true,
+          "canNavigation": false,
+          "canOverviewMap": false,
+          "canExtentNavigate": false,
           "canSelect": false,
           "canSelectState": false,
-          "canExtentNavigate": false,
-          "canOverviewMap": true
+          "canScaleBar": true,
+          "canFullScreen": true,
+          "canMeasure": false,
+          "canCompass": true
         },
-        "isUseCustomMapState": false,
-        "initialMapDataSourceID": "dataSource_2",
-        "initialMapState": null,
+        "isUseCustomMapState": true,
+        "initialMapDataSourceID": "dataSource_1",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 144447.638572,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -8235383.364673872,
+              "y": 4974685.106484064
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -8257301.682534616,
+            "ymin": 4962359.6356730955,
+            "xmax": -8213465.046813127,
+            "ymax": 4987010.577295032
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
         "scaleRange": null,
-        "layoutIndex": 0,
-        "clientQueryDataSourceIds": [],
+        "disablePopUp": false,
         "showPopupUponSelection": false,
-        "disablePopUp": true,
-        "popupDockPosition": ""
+        "popupDockPosition": "",
+        "selectionHighlightColor": "rgba(255,37,0,0)"
       },
       "id": "widget_1",
       "layouts": {
@@ -212,51 +234,31 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2",
-          "mainDataSourceId": "dataSource_2"
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
         }
       ]
     },
-    "widget_32": {
+    "widget_2": {
       "uri": "widgets/common/controller/",
       "version": "1.18.0",
       "label": "Widget Controller (Araç Denetleyicisi)",
       "config": {
         "behavior": {
           "onlyOpenOne": true,
-          "openStarts": [
-            "widget_33"
-          ],
+          "openStarts": [],
           "displayType": "STACK",
           "vertical": true,
           "size": {
-            "widget_33": {
-              "width": 462.765625,
-              "height": 443.375
-            },
-            "widget_34": {
-              "width": 606,
-              "height": 514.5625
-            },
-            "widget_35": {
-              "width": 644.4464289063499,
-              "height": 594.125
-            },
-            "widget_37": {
-              "width": 581.4464289063499,
-              "height": 529.125
-            },
-            "widget_38": {
-              "width": 735,
-              "height": 660.609375
+            "widget_3": {
+              "width": 608,
+              "height": 529.890625
             }
           },
-          "overflownStyle": "ARROWS",
-          "arrangement": "floating",
-          "alignment": "center"
+          "alignment": "start"
         },
         "appearance": {
-          "space": 0,
+          "space": 10,
           "advanced": true,
           "card": {
             "showLabel": false,
@@ -266,49 +268,30 @@
               "size": "lg",
               "shape": "rectangle"
             },
-            "showTooltip": true,
             "variant": {
               "default": {
                 "iconColor": "var(--light)",
                 "bg": "var(--success-500)",
-                "bold": true,
                 "boxShadow": {
                   "blur": "4px",
                   "spread": "4px",
-                  "color": "var(--info-700)"
-                },
-                "color": "var(--dark-900)"
+                  "color": "var(--primary-800)"
+                }
               },
               "active": {},
               "hover": {}
-            },
-            "showIndicator": true
+            }
           }
         }
       },
-      "id": "widget_32",
+      "id": "widget_2",
       "layouts": {
         "controller": {
           "LARGE": "layout_2"
         }
-      },
-      "style": {
-        "background": {
-          "color": null,
-          "fillType": "fill"
-        },
-        "borderRadius": null,
-        "border": {
-          "color": null,
-          "type": "solid",
-          "width": "2px"
-        },
-        "boxShadow": {
-          "presetStyle": "shadow-none"
-        }
       }
     },
-    "widget_38": {
+    "widget_3": {
       "uri": "widgets/mapillary-explorer/",
       "version": "1.0.0",
       "label": "Mapillary Explorer",
@@ -319,8 +302,8 @@
         "turboModeOnly": false,
         "coverageLayerAlwaysOn": false,
         "turboCreator": "",
-        "syncMapWithImage": true,
-        "syncMapPosition": "east",
+        "syncMapWithImage": false,
+        "syncMapPosition": "center",
         "hideLegend": false,
         "hideInfoBox": false,
         "hideBearing": false,
@@ -335,7 +318,7 @@
         "cameraY": 0.5,
         "debugMode": false
       },
-      "id": "widget_38",
+      "id": "widget_3",
       "useMapWidgetIds": [
         "widget_1"
       ]
@@ -349,56 +332,20 @@
   "attributes": {
     "portalUrl": "https://haritaservis.ibb.gov.tr/vekportal"
   },
-  "timestamp": 1770639100000,
+  "timestamp": 1770728333425,
   "sharedThemeVariables": null,
   "dataSources": {
     "dataSource_1": {
       "id": "dataSource_1",
       "type": "WEB_MAP",
-      "sourceLabel": "qwerty_map",
-      "itemId": "eee01c3737664763bbebe846a18a7354",
-      "portalUrl": "https://haritaservis.ibb.gov.tr/vekportal"
-    },
-    "dataSource_2": {
-      "id": "dataSource_2",
-      "type": "WEB_MAP",
       "sourceLabel": "Nut-Friendly Restaurants in New York City",
       "itemId": "3459f4d79095477d9d4bad9a1ffeb3b3",
       "portalUrl": "https://www.arcgis.com"
-    },
-    "dataSource_3": {
-      "id": "dataSource_3",
-      "type": "WEB_MAP",
-      "sourceLabel": "World Imagery (Wayback 2014-02-20)",
-      "itemId": "d1a4dc2bb63f4ea39e27135dc0e007df",
-      "portalUrl": "https://www.arcgis.com"
-    },
-    "dataSource_4": {
-      "id": "dataSource_4",
-      "type": "WEB_MAP",
-      "sourceLabel": "YABANCI_ISIMLI_POI_TOPLAM",
-      "itemId": "234501eaf2df4ec99c9daf55ea686e7b",
-      "portalUrl": "https://haritaservis.ibb.gov.tr/vekportal"
-    },
-    "dataSource_5": {
-      "id": "dataSource_5",
-      "type": "WEB_MAP",
-      "sourceLabel": "Mapbox Streets Basemap",
-      "itemId": "a8b3219ab4284904b4d3de789f816450",
-      "portalUrl": "https://www.arcgis.com"
-    },
-    "dataSource_6": {
-      "id": "dataSource_6",
-      "type": "WEB_MAP",
-      "sourceLabel": "Topographic",
-      "itemId": "d5e02a0c1f2b4ec399823fdd3c2fdebd",
-      "portalUrl": "https://haritaservis.ibb.gov.tr/vekportal"
     }
   },
   "pageStructure": [
     {
       "page_0": []
     }
-  ],
-  "controllerPanels": {}
+  ]
 }
