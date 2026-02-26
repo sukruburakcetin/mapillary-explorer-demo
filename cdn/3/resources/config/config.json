@@ -1,0 +1,334 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page"
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_4",
+          "bbox": {
+            "left": "0.0%",
+            "right": "37.2%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "62.8%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "effect": {
+              "SCROLL_IN": {
+                "type": "NONE",
+                "option": {
+                  "direction": null,
+                  "configType": "MOLASSES"
+                }
+              }
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "bbox": {
+            "left": "62.8%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "37.2%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_3": {
+      "content": {},
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": []
+    }
+  },
+  "exbVersion": "1.18.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/vivid/",
+  "forBuilderAttributes": {
+    "lockLayout": false,
+    "viewPortSize": {
+      "LARGE": {
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_4": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.18.0",
+      "label": "Map",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": false,
+          "canLocate": false,
+          "canCompass": true,
+          "canMeasure": false,
+          "canBaseMap": false,
+          "canLayers": true,
+          "canScaleBar": true,
+          "canFullScreen": true,
+          "canOverviewMap": false,
+          "canExtentNavigate": false,
+          "canSelect": false,
+          "canSelectState": false
+        },
+        "isUseCustomMapState": true,
+        "initialMapDataSourceID": "dataSource_6",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 334.3794243079053,
+            "scale": 46962.17954625133,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -8236076.873960627,
+              "y": 4974785.5208291905,
+              "z": -0.028747625648975372
+            },
+            "camera": {
+              "position": {
+                "spatialReference": {
+                  "latestWkid": 3857,
+                  "wkid": 102100
+                },
+                "x": -8236497.0173743935,
+                "y": 4973909.469716828,
+                "z": 14289.83809945453
+              },
+              "heading": 25.620575692094718,
+              "tilt": 2.948933307205623
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -8243400.290679175,
+            "ymin": 4968225.83798281,
+            "xmax": -8228753.458936191,
+            "ymax": 4981345.200142559
+          },
+          "rotation": 334.3794243079053,
+          "viewType": "3d"
+        },
+        "scaleRange": null,
+        "layoutIndex": 1
+      },
+      "id": "widget_4",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_3"
+        }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4",
+          "mainDataSourceId": "dataSource_4"
+        },
+        {
+          "dataSourceId": "dataSource_6",
+          "mainDataSourceId": "dataSource_6"
+        }
+      ],
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        }
+      }
+    },
+    "widget_8": {
+      "uri": "widgets/mapillary-explorer/",
+      "version": "1.0.0",
+      "label": "Mapillary Explorer",
+      "config": {
+        "mapillaryAccessToken": "",
+        "enableTrafficSigns": true,
+        "enableMapillaryObjects": true,
+        "turboModeOnly": true,
+        "coverageLayerAlwaysOn": true,
+        "turboCreator": "",
+        "syncMapWithImage": true,
+        "syncMapPosition": "center",
+        "hideLegend": false,
+        "hideInfoBox": false,
+        "hideBearing": false,
+        "hideZoom": false,
+        "hideTurboFilter": false,
+        "hideImageDownload": false,
+        "hideTimeTravel": false,
+        "hideShareButton": false,
+        "renderMode": 1,
+        "transitionMode": 0,
+        "cameraX": 0.5,
+        "cameraY": 0.5,
+        "debugMode": false,
+        "hideCoverageCircles": true
+      },
+      "id": "widget_8",
+      "useMapWidgetIds": [
+        "widget_4"
+      ],
+      "style": {
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        },
+        "borderRadius": null
+      }
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://haritaservis.ibb.gov.tr/vekportal"
+  },
+  "timestamp": 1772106965864,
+  "sharedThemeVariables": null,
+  "dataSources": {
+    "dataSource_4": {
+      "id": "dataSource_4",
+      "type": "WEB_MAP",
+      "sourceLabel": "Nut-Friendly Restaurants in New York City",
+      "itemId": "3459f4d79095477d9d4bad9a1ffeb3b3",
+      "portalUrl": "https://www.arcgis.com",
+      "label": "Streets (2D)"
+    },
+    "dataSource_6": {
+      "id": "dataSource_6",
+      "type": "WEB_SCENE",
+      "sourceLabel": "Streets",
+      "itemId": "1754f80e7e6644e28ce0c4d35066e392",
+      "portalUrl": "https://www.arcgis.com",
+      "label": "Streets (3D)"
+    }
+  },
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "customTheme": {}
+}
