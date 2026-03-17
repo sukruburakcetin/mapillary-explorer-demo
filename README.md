@@ -1,18 +1,53 @@
 # Mapillary Explorer (Demo)
-![Version](https://img.shields.io/badge/version-4.0.2-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![ArcGIS](https://img.shields.io/badge/ArcGIS-Experience%20Builder-007AC2)
-![React](https://img.shields.io/badge/React-18-61DAFB)
-![Esri Enterprise](https://img.shields.io/badge/Esri-Enterprise_12.0+-61DAFB)
-![Esri](https://img.shields.io/badge/Esri-ExB_Developer_Edition_1.18-61BAFB)
-
+<p >
+  <img src="https://img.shields.io/badge/version-4.1.0-blue.svg" alt="Version"/>
+  <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"/>
+  <img src="https://img.shields.io/badge/ArcGIS-Experience%20Builder%201.19-007AC2" alt="ArcGIS"/>
+  <img src="https://img.shields.io/badge/React-19-61DAFB" alt="React"/>
+  <img src="https://img.shields.io/badge/Esri%20Enterprise-12.0+-61DAFB" alt="Esri Enterprise"/>
+  <img src="https://img.shields.io/badge/zero--dependency%20UI-built--in-blueviolet" alt="Zero Dependency UI"/>
+</p>
 **Live Demo:**  
 👉 https://sukruburakcetin.github.io/mapillary-explorer-demo/
 
-> ⚠️ Note: Enable Turbo Mode for a faster and smoother browsing experience.
-
 <img width="610" height="360" alt="image" src="https://github.com/user-attachments/assets/79bc34ca-d298-428f-8940-05b054f29f2c" />
 
+### Demo Configuration
+
+The Mapillary Explorer demo is preconfigured with the following settings:
+
+```json
+{
+  "mapillaryAccessToken": "",
+  "turboModeOnly": true,
+  "coverageLayerAlwaysOn": true,
+  "hideCoverageCircles": true,
+  "turboCreator": "",
+  "turboDefaultStartDate": "",
+  "turboDefaultEndDate": "",
+  "turboDefaultIsPano": null,
+  "turboDefaultColorByDate": false,
+  "syncMapWithImage": false,
+  "syncMapPosition": "center",
+  "hideLegend": false,
+  "hideInfoBox": false,
+  "hideBearing": false,
+  "hideZoom": false,
+  "hideTurboFilter": false,
+  "hideImageDownload": false,
+  "hideTimeTravel": false,
+  "hideShareButton": false,
+  "hideSyncHeadingButton": false,
+  "hideCenterMapButton": false,
+  "enableTrafficSigns": true,
+  "enableMapillaryObjects": true,
+  "renderMode": 1,
+  "transitionMode": 0,
+  "cameraX": 0.5,
+  "cameraY": 0.5,
+  "debugMode": false
+}
+```
 
 ---
 
