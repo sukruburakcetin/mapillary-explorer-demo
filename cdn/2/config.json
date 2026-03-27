@@ -319,7 +319,7 @@
   "dialogs": {},
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://www.arcgis.com"",
+    "portalUrl": "https://www.arcgis.com",
     "isWebTier": false,
     "clientId": "",
     "express": false,
