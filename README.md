@@ -1,6 +1,6 @@
 # Mapillary Explorer (Demo)
 <p >
-  <img src="https://img.shields.io/badge/version-4.1.0-blue.svg" alt="Version"/>
+  <img src="https://img.shields.io/badge/version-4.2.0-blue.svg" alt="Version"/>
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"/>
   <img src="https://img.shields.io/badge/ArcGIS-Experience%20Builder%201.19-007AC2" alt="ArcGIS"/>
   <img src="https://img.shields.io/badge/React-19-61DAFB" alt="React"/>
@@ -19,9 +19,9 @@ The Mapillary Explorer demo is preconfigured with the following settings:
 ```json
 {
   "mapillaryAccessToken": "",
-  "turboModeOnly": true,
-  "coverageLayerAlwaysOn": true,
-  "hideCoverageCircles": true,
+  "turboModeOnly": false,
+  "coverageLayerAlwaysOn": false,
+  "hideCoverageCircles": false,
   "turboCreator": "",
   "turboDefaultStartDate": "",
   "turboDefaultEndDate": "",
@@ -39,6 +39,7 @@ The Mapillary Explorer demo is preconfigured with the following settings:
   "hideShareButton": false,
   "hideSyncHeadingButton": false,
   "hideCenterMapButton": false,
+  "hideCoverageAnalysis": false,
   "enableTrafficSigns": true,
   "enableMapillaryObjects": true,
   "renderMode": 1,
