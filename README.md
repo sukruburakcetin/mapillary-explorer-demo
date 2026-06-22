@@ -9,44 +9,44 @@
 **Live Demo:**  
 👉 https://sukruburakcetin.github.io/mapillary-explorer-demo/
 
-<img width="610" height="360" alt="image" src="https://github.com/user-attachments/assets/79bc34ca-d298-428f-8940-05b054f29f2c" />
+<img width="840" height="480" alt="image" src="https://github.com/user-attachments/assets/79bc34ca-d298-428f-8940-05b054f29f2c" />
 
 ### Demo Configuration
 
 The Mapillary Explorer demo is preconfigured with the following settings:
 
 ```json
-{
-  "mapillaryAccessToken": "",
-  "turboModeOnly": false,
-  "coverageLayerAlwaysOn": false,
-  "hideCoverageCircles": false,
-  "turboCreator": "",
-  "turboDefaultStartDate": "",
-  "turboDefaultEndDate": "",
-  "turboDefaultIsPano": null,
-  "turboDefaultColorByDate": false,
-  "syncMapWithImage": false,
-  "syncMapPosition": "center",
-  "hideLegend": false,
-  "hideInfoBox": false,
-  "hideBearing": false,
-  "hideZoom": false,
-  "hideTurboFilter": false,
-  "hideImageDownload": false,
-  "hideTimeTravel": false,
-  "hideShareButton": false,
-  "hideSyncHeadingButton": false,
-  "hideCenterMapButton": false,
-  "hideCoverageAnalysis": false,
-  "enableTrafficSigns": true,
-  "enableMapillaryObjects": true,
-  "renderMode": 1,
-  "transitionMode": 0,
-  "cameraX": 0.5,
-  "cameraY": 0.5,
-  "debugMode": false
-}
+"config": {
+        "mapillaryAccessToken": "",
+        "turboModeOnly": true,
+        "coverageLayerAlwaysOn": true,
+        "hideCoverageCircles": true,
+        "turboCreator": "",
+        "turboDefaultStartDate": "",
+        "turboDefaultEndDate": "",
+        "turboDefaultIsPano": null,
+        "turboDefaultColorByDate": false,
+        "syncMapWithImage": true,
+        "syncMapPosition": "center",
+        "hideLegend": false,
+        "hideInfoBox": false,
+        "hideBearing": false,
+        "hideZoom": false,
+        "hideTurboFilter": false,
+        "hideImageDownload": false,
+        "hideTimeTravel": false,
+        "hideShareButton": false,
+        "hideSyncHeadingButton": false,
+        "hideCenterMapButton": false,
+        "hideCoverageAnalysis": false,
+        "enableTrafficSigns": true,
+        "enableMapillaryObjects": true,
+        "renderMode": 1,
+        "transitionMode": 0,
+        "cameraX": 0.5,
+        "cameraY": 0.5,
+        "debugMode": false
+      },
 ```
 
 ---
