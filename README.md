@@ -1,10 +1,10 @@
 # Mapillary Explorer (Demo)
 <p align="center">
-  <img src="https://img.shields.io/badge/version-4.5.0-blue.svg" alt="Version"/>
+  <img src="https://img.shields.io/badge/version-4.6.0-blue.svg" alt="Version"/>
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"/>
-  <img src="https://img.shields.io/badge/ArcGIS%20Experience%20Builder-1.18%20%7C%201.19%20%7C%201.20+-007AC2" alt="ArcGIS Experience Builder"/>
+  <img src="https://img.shields.io/badge/ArcGIS%20Experience%20Builder-1.18%20%7C%201.19%20%7C%201.20%20%7C%201.21-007AC2" alt="ArcGIS Experience Builder"/>
   <img src="https://img.shields.io/badge/React-18%20%7C%2019-61DAFB" alt="React 18 | 19"/>
-  <img src="https://img.shields.io/badge/Esri%20Enterprise-12.0+-61DAFB" alt="Esri Enterprise"/>
+  <img src="https://img.shields.io/badge/Esri%20Enterprise-12.0%20%7C%2012.1-61DAFB" alt="Esri Enterprise"/>
 </p>
 **Live Demo:**  
 👉 https://sukruburakcetin.github.io/mapillary-explorer-demo/
