@@ -45,7 +45,16 @@ The Mapillary Explorer demo is preconfigured with the following settings:
         "transitionMode": 0,
         "cameraX": 0.5,
         "cameraY": 0.5,
-        "debugMode": false
+        "debugMode": false,
+        "fieldNoteCategories": [
+          "Missing Sign",
+          "Damaged Sign",
+          "Damaged Sidewalk",
+          "Pothole / Road Damage",
+          "Streetlight Failure",
+          "Illegal Encroachment",
+          "Other"
+        ]
       },
 ```
 
